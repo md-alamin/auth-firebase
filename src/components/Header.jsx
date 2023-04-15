@@ -1,11 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
 	return (
 		<div className="navbar bg-primary text-primary-content">
 			<div className="flex-1">
-				<a className="btn btn-ghost normal-case text-xl">My Auth</a>
+				<Link to="/" className="btn btn-ghost normal-case text-xl">
+					My Auth
+				</Link>
 			</div>
 			<div className="flex-none">
 				<ul className="menu menu-horizontal px-3 flex gap-3">
