@@ -16,6 +16,7 @@ const Login = () => {
 			.then((result) => {
 				const loggedUser = result.user;
 				console.log(loggedUser);
+				form.reset();
 			})
 			.catch((e) => {
 				console.log(e);
@@ -51,6 +52,7 @@ const Login = () => {
 								placeholder="password"
 								name="password"
 								required
+								autoComplete="on"
 								className="input input-bordered"
 							/>
 							<label className="label">

@@ -4,7 +4,6 @@ import { AuthContext } from '../providers/AuthProvider';
 const Home = () => {
 	return (
 		<div className="hero flex items-center h-96 mt-10 bg-base-200 px-20">
-			<h2>Works</h2>
 			<div className="hero-content flex-col lg:flex-row-reverse">
 				<img
 					src="https://www.nokia.com/sites/default/files/2022-01/cybersecurity4.jpg"

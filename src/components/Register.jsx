@@ -64,6 +64,7 @@ const Register = () => {
 								name="password"
 								placeholder="password"
 								required
+								autoComplete="on"
 								className="input input-bordered"
 							/>
 							<label className="label">
